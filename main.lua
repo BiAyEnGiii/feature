@@ -11,11 +11,11 @@ for i,v in pairs(ModuleScript)do
 local uv = getupvalues(v)
 for i,v in pairs(uv[1])do
 if type(v) ==’table’ then
--–For parachute–
+--For parachute–
 uv[1][“Parachute”].Float = 30
 uv[1][“Parachute”].Speed = 100
 
--–For glider–
+--For glider–
 uv[1][“Glider”].Float = 30
 uv[1][“Glider”].Speed = 100
 
